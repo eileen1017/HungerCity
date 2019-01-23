@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B19FD3D21A7001100115E92 /* SearchRestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B19FD3C21A7001100115E92 /* SearchRestaurantCollectionViewCell.swift */; };
+		3B48AF2C219F8D4300D4E082 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48AF2B219F8D4300D4E082 /* LoginViewController.swift */; };
+		3B774BF421951DAA00E63C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774BF321951DAA00E63C69 /* AppDelegate.swift */; };
+		3B774BF621951DAA00E63C69 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774BF521951DAA00E63C69 /* HomeViewController.swift */; };
+		3B774BF821951DAA00E63C69 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774BF721951DAA00E63C69 /* LikeViewController.swift */; };
+		3B774BFB21951DAA00E63C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B774BF921951DAA00E63C69 /* Main.storyboard */; };
+		3B774BFD21951DAC00E63C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B774BFC21951DAC00E63C69 /* Assets.xcassets */; };
+		3B774C0021951DAC00E63C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B774BFE21951DAC00E63C69 /* LaunchScreen.storyboard */; };
+		3B774C082195237B00E63C69 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774C072195237B00E63C69 /* ProfileViewController.swift */; };
+		3B774C0A21954FE500E63C69 /* RecentRestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774C0921954FE500E63C69 /* RecentRestaurantCollectionViewCell.swift */; };
+		3B774C12219605DC00E63C69 /* CloudDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774C11219605DC00E63C69 /* CloudDB.swift */; };
+		3B774C16219605E300E63C69 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774C13219605E300E63C69 /* SQLiteDB.swift */; };
+		3B774C17219605E300E63C69 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774C14219605E300E63C69 /* SQLTable.swift */; };
+		3B774C18219605E300E63C69 /* SQLiteBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B774C15219605E300E63C69 /* SQLiteBase.swift */; };
+		3B774C1E219606A100E63C69 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B774C1C219606A100E63C69 /* libsqlite3.tbd */; };
+		3B774C1F219606A100E63C69 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B774C1D219606A100E63C69 /* libsqlite3.0.tbd */; };
+		3B8EC9FF21B2710700B2F5E3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8EC9FE21B2710700B2F5E3 /* AboutViewController.swift */; };
+		3B8ECA0121B278A300B2F5E3 /* RateRestaurantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8ECA0021B278A300B2F5E3 /* RateRestaurantsCollectionViewCell.swift */; };
+		3B8ECA1121B3B34500B2F5E3 /* finalproject.db in Resources */ = {isa = PBXBuildFile; fileRef = 3B8ECA1021B3B34400B2F5E3 /* finalproject.db */; };
+		3B9E45A92196969300A9E2BC /* AllDataRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E45A72196969300A9E2BC /* AllDataRestaurants.swift */; };
+		3B9E45AA2196969300A9E2BC /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E45A82196969300A9E2BC /* Restaurants.swift */; };
+		3B9E45AE219751B100A9E2BC /* AllRestaurantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E45AD219751B100A9E2BC /* AllRestaurantsCollectionViewCell.swift */; };
+		3B9E45B02197603900A9E2BC /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E45AF2197603900A9E2BC /* RestaurantDetailViewController.swift */; };
+		3B9E45B621980DAC00A9E2BC /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E45B521980DAC00A9E2BC /* Photos.swift */; };
+		3B9E45B821980DBE00A9E2BC /* AllDataPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E45B721980DBE00A9E2BC /* AllDataPhotos.swift */; };
+		3B9E45BA21981AE600A9E2BC /* AllPhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E45B921981AE600A9E2BC /* AllPhotosCollectionViewCell.swift */; };
+		3BC077C02198A1FA00E38F4F /* LikeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC077BF2198A1FA00E38F4F /* LikeCollectionViewCell.swift */; };
+		3BC077C22198ABB200E38F4F /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC077C12198ABB200E38F4F /* ProfileTableViewCell.swift */; };
+		3BE6193321B23C4F0021D4BB /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6193221B23C4F0021D4BB /* UserDefaultsHelper.swift */; };
+		3BE6193521B258410021D4BB /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6193421B258410021D4BB /* SelfSizedTableView.swift */; };
+		3BED9E3C21B20E7300AAEBC3 /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED9E3B21B20E7300AAEBC3 /* RatingController.swift */; };
+		3BED9E3E21B20E9A00AAEBC3 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED9E3D21B20E9A00AAEBC3 /* CommentsTableViewCell.swift */; };
+		3BED9E4021B21C2B00AAEBC3 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED9E3F21B21C2B00AAEBC3 /* Comments.swift */; };
+		3BED9E4221B21E4300AAEBC3 /* AllComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED9E4121B21E4300AAEBC3 /* AllComments.swift */; };
+		442AD2B521AA7E71002C0810 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2B421AA7E71002C0810 /* GoogleMapsBase.framework */; };
+		442AD2B721AA7E84002C0810 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2B621AA7E84002C0810 /* GoogleMaps.framework */; };
+		442AD2B921AA7E90002C0810 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2B821AA7E90002C0810 /* GoogleMapsCore.framework */; };
+		442AD2BB21AA7EB7002C0810 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 442AD2BA21AA7EB7002C0810 /* GoogleMaps.bundle */; };
+		442AD2BD21AA816B002C0810 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2BC21AA816B002C0810 /* Accelerate.framework */; };
+		442AD2BF21AA8177002C0810 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2BE21AA8177002C0810 /* CoreData.framework */; };
+		442AD2C121AA8180002C0810 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2C021AA8180002C0810 /* CoreGraphics.framework */; };
+		442AD2C321AA8189002C0810 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2C221AA8189002C0810 /* CoreImage.framework */; };
+		442AD2C521AA8190002C0810 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2C421AA8190002C0810 /* CoreLocation.framework */; };
+		442AD2C721AA819B002C0810 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2C621AA819B002C0810 /* CoreTelephony.framework */; };
+		442AD2C921AA81A3002C0810 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2C821AA81A3002C0810 /* CoreText.framework */; };
+		442AD2CB21AA81AC002C0810 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2CA21AA81AB002C0810 /* GLKit.framework */; };
+		442AD2CD21AA81B3002C0810 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2CC21AA81B3002C0810 /* ImageIO.framework */; };
+		442AD2CF21AA81BD002C0810 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2CE21AA81BD002C0810 /* libc++.tbd */; };
+		442AD2D121AA81C6002C0810 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2D021AA81C6002C0810 /* libz.tbd */; };
+		442AD2D321AA81D0002C0810 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2D221AA81CF002C0810 /* OpenGLES.framework */; };
+		442AD2D521AA81D7002C0810 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2D421AA81D7002C0810 /* QuartzCore.framework */; };
+		442AD2D721AA81DF002C0810 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2D621AA81DF002C0810 /* SystemConfiguration.framework */; };
+		442AD2D921AA81E8002C0810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AD2D821AA81E8002C0810 /* UIKit.framework */; };
+		44BFF49E21B36BE800792012 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BFF49D21B36BE800792012 /* MoreInfoViewController.swift */; };
+		B5ACDE2721A2047C00E1E45C /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ACDE2621A2047C00E1E45C /* ReservationViewController.swift */; };
+		B5EAD75C21B10BAE001709A3 /* ReserveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD75B21B10BAE001709A3 /* ReserveListViewController.swift */; };
+		BC21756A4769C952258924C4 /* Pods_HungerCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D07B988EDAF91BF55EB2C57 /* Pods_HungerCity.framework */; };
+		CBEC500221AB72F9006D41FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBEC500121AB72F9006D41FF /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3342DAC398AF3BCA98AA9A34 /* Pods-HungerCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungerCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-HungerCity/Pods-HungerCity.release.xcconfig"; sourceTree = "<group>"; };
+		3B19FD3C21A7001100115E92 /* SearchRestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B48AF2B219F8D4300D4E082 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B774BF021951DAA00E63C69 /* HungerCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B774BF321951DAA00E63C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B774BF521951DAA00E63C69 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3B774BF721951DAA00E63C69 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		3B774BFA21951DAA00E63C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B774BFC21951DAC00E63C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B774BFF21951DAC00E63C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B774C0121951DAC00E63C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B774C072195237B00E63C69 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3B774C0921954FE500E63C69 /* RecentRestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentRestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B774C11219605DC00E63C69 /* CloudDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDB.swift; sourceTree = "<group>"; };
+		3B774C13219605E300E63C69 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		3B774C14219605E300E63C69 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		3B774C15219605E300E63C69 /* SQLiteBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteBase.swift; sourceTree = "<group>"; };
+		3B774C19219605EE00E63C69 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3B774C1C219606A100E63C69 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3B774C1D219606A100E63C69 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3B8EC9FE21B2710700B2F5E3 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3B8ECA0021B278A300B2F5E3 /* RateRestaurantsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateRestaurantsCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B8ECA1021B3B34400B2F5E3 /* finalproject.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = finalproject.db; path = ../../../finalproject.db; sourceTree = "<group>"; };
+		3B9E45A72196969300A9E2BC /* AllDataRestaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDataRestaurants.swift; sourceTree = "<group>"; };
+		3B9E45A82196969300A9E2BC /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		3B9E45AD219751B100A9E2BC /* AllRestaurantsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRestaurantsCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B9E45AF2197603900A9E2BC /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		3B9E45B521980DAC00A9E2BC /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		3B9E45B721980DBE00A9E2BC /* AllDataPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDataPhotos.swift; sourceTree = "<group>"; };
+		3B9E45B921981AE600A9E2BC /* AllPhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		3BC077BF2198A1FA00E38F4F /* LikeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3BC077C12198ABB200E38F4F /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		3BE6193221B23C4F0021D4BB /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		3BE6193421B258410021D4BB /* SelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
+		3BED9E3B21B20E7300AAEBC3 /* RatingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
+		3BED9E3D21B20E9A00AAEBC3 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		3BED9E3F21B21C2B00AAEBC3 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		3BED9E4121B21E4300AAEBC3 /* AllComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllComments.swift; sourceTree = "<group>"; };
+		3D07B988EDAF91BF55EB2C57 /* Pods_HungerCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HungerCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442AD2B421AA7E71002C0810 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		442AD2B621AA7E84002C0810 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		442AD2B821AA7E90002C0810 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		442AD2BA21AA7EB7002C0810 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		442AD2BC21AA816B002C0810 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		442AD2BE21AA8177002C0810 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		442AD2C021AA8180002C0810 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		442AD2C221AA8189002C0810 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		442AD2C421AA8190002C0810 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		442AD2C621AA819B002C0810 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		442AD2C821AA81A3002C0810 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		442AD2CA21AA81AB002C0810 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		442AD2CC21AA81B3002C0810 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		442AD2CE21AA81BD002C0810 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		442AD2D021AA81C6002C0810 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		442AD2D221AA81CF002C0810 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		442AD2D421AA81D7002C0810 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		442AD2D621AA81DF002C0810 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		442AD2D821AA81E8002C0810 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44BFF49D21B36BE800792012 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		9CDBCEE90B68A7598193F3F2 /* Pods-HungerCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungerCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HungerCity/Pods-HungerCity.debug.xcconfig"; sourceTree = "<group>"; };
+		B5ACDE2621A2047C00E1E45C /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		B5EAD75B21B10BAE001709A3 /* ReserveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveListViewController.swift; sourceTree = "<group>"; };
+		CBEC500121AB72F9006D41FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B774BED21951DAA00E63C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442AD2D921AA81E8002C0810 /* UIKit.framework in Frameworks */,
+				442AD2D721AA81DF002C0810 /* SystemConfiguration.framework in Frameworks */,
+				442AD2D521AA81D7002C0810 /* QuartzCore.framework in Frameworks */,
+				442AD2D321AA81D0002C0810 /* OpenGLES.framework in Frameworks */,
+				442AD2D121AA81C6002C0810 /* libz.tbd in Frameworks */,
+				442AD2CF21AA81BD002C0810 /* libc++.tbd in Frameworks */,
+				442AD2CD21AA81B3002C0810 /* ImageIO.framework in Frameworks */,
+				442AD2CB21AA81AC002C0810 /* GLKit.framework in Frameworks */,
+				442AD2C921AA81A3002C0810 /* CoreText.framework in Frameworks */,
+				442AD2C721AA819B002C0810 /* CoreTelephony.framework in Frameworks */,
+				442AD2C521AA8190002C0810 /* CoreLocation.framework in Frameworks */,
+				442AD2C321AA8189002C0810 /* CoreImage.framework in Frameworks */,
+				442AD2C121AA8180002C0810 /* CoreGraphics.framework in Frameworks */,
+				442AD2BF21AA8177002C0810 /* CoreData.framework in Frameworks */,
+				442AD2BD21AA816B002C0810 /* Accelerate.framework in Frameworks */,
+				442AD2B521AA7E71002C0810 /* GoogleMapsBase.framework in Frameworks */,
+				3B774C1E219606A100E63C69 /* libsqlite3.tbd in Frameworks */,
+				442AD2B921AA7E90002C0810 /* GoogleMapsCore.framework in Frameworks */,
+				442AD2B721AA7E84002C0810 /* GoogleMaps.framework in Frameworks */,
+				3B774C1F219606A100E63C69 /* libsqlite3.0.tbd in Frameworks */,
+				BC21756A4769C952258924C4 /* Pods_HungerCity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B774BE721951DAA00E63C69 = {
+			isa = PBXGroup;
+			children = (
+				3B774BF221951DAA00E63C69 /* HungerCity */,
+				3B774BF121951DAA00E63C69 /* Products */,
+				3B774C1B219606A000E63C69 /* Frameworks */,
+				9F41901926A3BD0846CB8F80 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3B774BF121951DAA00E63C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B774BF021951DAA00E63C69 /* HungerCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B774BF221951DAA00E63C69 /* HungerCity */ = {
+			isa = PBXGroup;
+			children = (
+				442AD2B321AA7E4F002C0810 /* GoogleMap */,
+				3B9E45A62196967200A9E2BC /* Module */,
+				3B774C0E2196057600E63C69 /* Resources */,
+				3B774C0C219555A400E63C69 /* Cell */,
+				3B774C0B2195559000E63C69 /* View */,
+				3B774BF321951DAA00E63C69 /* AppDelegate.swift */,
+				3B774BF921951DAA00E63C69 /* Main.storyboard */,
+				CBEC500121AB72F9006D41FF /* GoogleService-Info.plist */,
+				3B774BFC21951DAC00E63C69 /* Assets.xcassets */,
+				3B774BFE21951DAC00E63C69 /* LaunchScreen.storyboard */,
+				3B774C0121951DAC00E63C69 /* Info.plist */,
+			);
+			path = HungerCity;
+			sourceTree = "<group>";
+		};
+		3B774C0B2195559000E63C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B774BF521951DAA00E63C69 /* HomeViewController.swift */,
+				3B774BF721951DAA00E63C69 /* LikeViewController.swift */,
+				3B774C072195237B00E63C69 /* ProfileViewController.swift */,
+				3BED9E3B21B20E7300AAEBC3 /* RatingController.swift */,
+				3B9E45AF2197603900A9E2BC /* RestaurantDetailViewController.swift */,
+				3B48AF2B219F8D4300D4E082 /* LoginViewController.swift */,
+				B5ACDE2621A2047C00E1E45C /* ReservationViewController.swift */,
+				B5EAD75B21B10BAE001709A3 /* ReserveListViewController.swift */,
+				3B8EC9FE21B2710700B2F5E3 /* AboutViewController.swift */,
+				44BFF49D21B36BE800792012 /* MoreInfoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B774C0C219555A400E63C69 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3B774C0921954FE500E63C69 /* RecentRestaurantCollectionViewCell.swift */,
+				3B19FD3C21A7001100115E92 /* SearchRestaurantCollectionViewCell.swift */,
+				3B9E45AD219751B100A9E2BC /* AllRestaurantsCollectionViewCell.swift */,
+				3B9E45B921981AE600A9E2BC /* AllPhotosCollectionViewCell.swift */,
+				3BC077BF2198A1FA00E38F4F /* LikeCollectionViewCell.swift */,
+				3BED9E3D21B20E9A00AAEBC3 /* CommentsTableViewCell.swift */,
+				3BC077C12198ABB200E38F4F /* ProfileTableViewCell.swift */,
+				3BE6193421B258410021D4BB /* SelfSizedTableView.swift */,
+				3B8ECA0021B278A300B2F5E3 /* RateRestaurantsCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3B774C0E2196057600E63C69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B8ECA1021B3B34400B2F5E3 /* finalproject.db */,
+				3B774C19219605EE00E63C69 /* Bridging-Header.h */,
+				3B774C11219605DC00E63C69 /* CloudDB.swift */,
+				3B774C15219605E300E63C69 /* SQLiteBase.swift */,
+				3B774C13219605E300E63C69 /* SQLiteDB.swift */,
+				3B774C14219605E300E63C69 /* SQLTable.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B774C1B219606A000E63C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				442AD2D821AA81E8002C0810 /* UIKit.framework */,
+				442AD2D621AA81DF002C0810 /* SystemConfiguration.framework */,
+				442AD2D421AA81D7002C0810 /* QuartzCore.framework */,
+				442AD2D221AA81CF002C0810 /* OpenGLES.framework */,
+				442AD2D021AA81C6002C0810 /* libz.tbd */,
+				442AD2CE21AA81BD002C0810 /* libc++.tbd */,
+				442AD2CC21AA81B3002C0810 /* ImageIO.framework */,
+				442AD2CA21AA81AB002C0810 /* GLKit.framework */,
+				442AD2C821AA81A3002C0810 /* CoreText.framework */,
+				442AD2C621AA819B002C0810 /* CoreTelephony.framework */,
+				442AD2C421AA8190002C0810 /* CoreLocation.framework */,
+				442AD2C221AA8189002C0810 /* CoreImage.framework */,
+				442AD2C021AA8180002C0810 /* CoreGraphics.framework */,
+				442AD2BE21AA8177002C0810 /* CoreData.framework */,
+				442AD2BC21AA816B002C0810 /* Accelerate.framework */,
+				3B774C1D219606A100E63C69 /* libsqlite3.0.tbd */,
+				3B774C1C219606A100E63C69 /* libsqlite3.tbd */,
+				3D07B988EDAF91BF55EB2C57 /* Pods_HungerCity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B9E45A62196967200A9E2BC /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E45A72196969300A9E2BC /* AllDataRestaurants.swift */,
+				3B9E45A82196969300A9E2BC /* Restaurants.swift */,
+				3B9E45B521980DAC00A9E2BC /* Photos.swift */,
+				3B9E45B721980DBE00A9E2BC /* AllDataPhotos.swift */,
+				3BED9E3F21B21C2B00AAEBC3 /* Comments.swift */,
+				3BED9E4121B21E4300AAEBC3 /* AllComments.swift */,
+				3BE6193221B23C4F0021D4BB /* UserDefaultsHelper.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		442AD2B321AA7E4F002C0810 /* GoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				442AD2BA21AA7EB7002C0810 /* GoogleMaps.bundle */,
+				442AD2B821AA7E90002C0810 /* GoogleMapsCore.framework */,
+				442AD2B621AA7E84002C0810 /* GoogleMaps.framework */,
+				442AD2B421AA7E71002C0810 /* GoogleMapsBase.framework */,
+			);
+			path = GoogleMap;
+			sourceTree = "<group>";
+		};
+		9F41901926A3BD0846CB8F80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CDBCEE90B68A7598193F3F2 /* Pods-HungerCity.debug.xcconfig */,
+				3342DAC398AF3BCA98AA9A34 /* Pods-HungerCity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B774BEF21951DAA00E63C69 /* HungerCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B774C0421951DAC00E63C69 /* Build configuration list for PBXNativeTarget "HungerCity" */;
+			buildPhases = (
+				A64DBBADCA5A1961EC091823 /* [CP] Check Pods Manifest.lock */,
+				3B774BEC21951DAA00E63C69 /* Sources */,
+				3B774BED21951DAA00E63C69 /* Frameworks */,
+				3B774BEE21951DAA00E63C69 /* Resources */,
+				C71BB7283FE1383324652F44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HungerCity;
+			productName = HungerCity;
+			productReference = 3B774BF021951DAA00E63C69 /* HungerCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B774BE821951DAA00E63C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lin Li";
+				TargetAttributes = {
+					3B774BEF21951DAA00E63C69 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B774BEB21951DAA00E63C69 /* Build configuration list for PBXProject "HungerCity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B774BE721951DAA00E63C69;
+			productRefGroup = 3B774BF121951DAA00E63C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B774BEF21951DAA00E63C69 /* HungerCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B774BEE21951DAA00E63C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B774C0021951DAC00E63C69 /* LaunchScreen.storyboard in Resources */,
+				3B8ECA1121B3B34500B2F5E3 /* finalproject.db in Resources */,
+				3B774BFD21951DAC00E63C69 /* Assets.xcassets in Resources */,
+				3B774BFB21951DAA00E63C69 /* Main.storyboard in Resources */,
+				442AD2BB21AA7EB7002C0810 /* GoogleMaps.bundle in Resources */,
+				CBEC500221AB72F9006D41FF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A64DBBADCA5A1961EC091823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HungerCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71BB7283FE1383324652F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HungerCity/Pods-HungerCity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HungerCity/Pods-HungerCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B774BEC21951DAA00E63C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC077C02198A1FA00E38F4F /* LikeCollectionViewCell.swift in Sources */,
+				3B774C0A21954FE500E63C69 /* RecentRestaurantCollectionViewCell.swift in Sources */,
+				3BED9E3C21B20E7300AAEBC3 /* RatingController.swift in Sources */,
+				3BED9E4221B21E4300AAEBC3 /* AllComments.swift in Sources */,
+				3B774C17219605E300E63C69 /* SQLTable.swift in Sources */,
+				3BC077C22198ABB200E38F4F /* ProfileTableViewCell.swift in Sources */,
+				3BED9E4021B21C2B00AAEBC3 /* Comments.swift in Sources */,
+				3B48AF2C219F8D4300D4E082 /* LoginViewController.swift in Sources */,
+				B5ACDE2721A2047C00E1E45C /* ReservationViewController.swift in Sources */,
+				3B9E45A92196969300A9E2BC /* AllDataRestaurants.swift in Sources */,
+				3B8ECA0121B278A300B2F5E3 /* RateRestaurantsCollectionViewCell.swift in Sources */,
+				3B19FD3D21A7001100115E92 /* SearchRestaurantCollectionViewCell.swift in Sources */,
+				3B9E45AA2196969300A9E2BC /* Restaurants.swift in Sources */,
+				44BFF49E21B36BE800792012 /* MoreInfoViewController.swift in Sources */,
+				3B774BF821951DAA00E63C69 /* LikeViewController.swift in Sources */,
+				3B774BF421951DAA00E63C69 /* AppDelegate.swift in Sources */,
+				3BE6193321B23C4F0021D4BB /* UserDefaultsHelper.swift in Sources */,
+				3B9E45B821980DBE00A9E2BC /* AllDataPhotos.swift in Sources */,
+				3B9E45B621980DAC00A9E2BC /* Photos.swift in Sources */,
+				3B9E45B02197603900A9E2BC /* RestaurantDetailViewController.swift in Sources */,
+				3B8EC9FF21B2710700B2F5E3 /* AboutViewController.swift in Sources */,
+				3B774C18219605E300E63C69 /* SQLiteBase.swift in Sources */,
+				3B774C082195237B00E63C69 /* ProfileViewController.swift in Sources */,
+				3B9E45BA21981AE600A9E2BC /* AllPhotosCollectionViewCell.swift in Sources */,
+				3B774BF621951DAA00E63C69 /* HomeViewController.swift in Sources */,
+				3B9E45AE219751B100A9E2BC /* AllRestaurantsCollectionViewCell.swift in Sources */,
+				B5EAD75C21B10BAE001709A3 /* ReserveListViewController.swift in Sources */,
+				3B774C12219605DC00E63C69 /* CloudDB.swift in Sources */,
+				3BED9E3E21B20E9A00AAEBC3 /* CommentsTableViewCell.swift in Sources */,
+				3BE6193521B258410021D4BB /* SelfSizedTableView.swift in Sources */,
+				3B774C16219605E300E63C69 /* SQLiteDB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B774BF921951DAA00E63C69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B774BFA21951DAA00E63C69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B774BFE21951DAC00E63C69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B774BFF21951DAC00E63C69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B774C0221951DAC00E63C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B774C0321951DAC00E63C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B774C0521951DAC00E63C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDBCEE90B68A7598193F3F2 /* Pods-HungerCity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28T3QA5977;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HungerCity/GoogleMap",
+				);
+				INFOPLIST_FILE = HungerCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LinLi-Database.HungerCity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HungerCity/Resources/Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B774C0621951DAC00E63C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3342DAC398AF3BCA98AA9A34 /* Pods-HungerCity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28T3QA5977;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HungerCity/GoogleMap",
+				);
+				INFOPLIST_FILE = HungerCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LinLi-Database.HungerCity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HungerCity/Resources/Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B774BEB21951DAA00E63C69 /* Build configuration list for PBXProject "HungerCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B774C0221951DAC00E63C69 /* Debug */,
+				3B774C0321951DAC00E63C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B774C0421951DAC00E63C69 /* Build configuration list for PBXNativeTarget "HungerCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B774C0521951DAC00E63C69 /* Debug */,
+				3B774C0621951DAC00E63C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B774BE821951DAA00E63C69 /* Project object */;
+}
